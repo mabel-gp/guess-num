@@ -1,9 +1,9 @@
-"""Guess Number"""
+"""Guess Number User"""
 
 import random 
 
 
-def guess_num(x):  # x = límite superior
+def guess_num_user(x):  # x = límite superior
 
     print("----------------------------")
     print("  ¡Bienvenido(a) al juego!  ")
@@ -28,4 +28,4 @@ def guess_num(x):  # x = límite superior
     print(f"Si, el número correcto era {random_number} ¡Adivinaste!\n")
 
 
-guess_num(5)
+guess_num_user(5)
